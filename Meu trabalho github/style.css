@@ -1,0 +1,162 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CORPO */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #0a0a0a;
+  color: #e8e8e8;
+}
+
+/* LINKS */
+.logo {
+  font-weight: 600;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.a-ativo {
+  color: #f0f0;
+  opacity: 60%;
+}
+
+/* MENU */
+header {
+  background-color: #0a0a0a;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 34.5vw;
+}
+
+.div-son {
+  display: inline-block;
+  display: flex;
+  list-style: none;
+}
+
+.div-son a {
+  margin-left: 20px;
+}
+
+.ativo {
+    color: #aaa1a2;
+    opacity: 60%;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 20px 15px 5px 15px;
+  background-color: #111;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: orange;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.hero-btns {
+  color: orange;
+  opacity: 40%;
+}
+
+/* SEÇÕES */
+section {
+  padding: 0px 20px 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: orange;
+}
+
+section h3 {
+  color: white;
+}
+
+.tag {
+  font-weight: 500;
+}
+
+/* IMAGENS */
+img {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+/* EQUIPE */
+section div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.grid-planos h3 {
+  font-weight: 500;
+  color: orange;
+  padding-bottom: 5px;
+}
+
+.comecar {
+  color: #aaa1a2
+  font-weight: 400;
+  opacity: 40%;
+}
+
+.comecar:last-child {
+  padding-bottom: -50px;
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #000;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 20px;
+    margin-left: -35px;
+  }
+
+  .nav-inner {
+    margin-right: 0;
+  }
+}

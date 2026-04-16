@@ -1,0 +1,164 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CORPO */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #0a0a0a;
+  color: #e8e8e8;
+}
+
+/* LINKS */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.a-ativo {
+  color: orange;
+}
+
+
+/* MENU */
+header {
+  background-color: #111;
+  padding: 31px;
+  margin-left: 30px;
+  position: sticky;
+  top: 0px;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 34.5vw;
+}
+
+.div-son {
+  display: inline-block;
+  display: flex;
+  list-style: none;
+}
+
+.div-son a {
+  margin-left: 20px;
+}
+
+.ativo {
+    color: #aaa1a2;
+    opacity: 60%;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #111;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: orange;
+  font-weight: 600;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+/* SEÇÕES */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: orange;
+}
+
+/* IMAGENS */
+img {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+/* EQUIPE */
+section div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+summary {
+  font-weight: 400;
+  color: orange;
+  cursor: pointer;
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  .nav-inner {
+    color background: #000000;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0;
+    position: sticky;
+  }
+
+  .div-son {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .div-son a {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+  
+}
